@@ -15,10 +15,10 @@
           <div class="buttons">
             <ul>
               <li>
-                <a href="aboutus/">Read More</a>
+                <a class="btn1" href="aboutus/">Read More</a>
               </li>
               <li>
-                <a class="open-popup" href="javascript:;">Get a quote</a>
+                <a class="open-popup btn1" href="javascript:;">Get a quote</a>
               </li>
             </ul>
           </div> 
@@ -48,7 +48,7 @@
           <p data-aos="fade-up" data-aos-duration="700" style="padding-bottom: 50px;">Partnering with Ecommonks means choosing innovation, expertise, and results. Our commitment<br> to your success is unwavering. Here’s why you should choose us: </p>
           <ul>
             <li data-aos="fade-right" data-aos-duration="500">
-              <a class="open-popup" href="javascript:;" href="#">Get a Quote</a>
+              <a class="open-popup btn1" href="javascript:;" href="#">Get a Quote</a>
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@
           </div>
           <div class="button-custom">
             <h6>
-              <a class="open-popup" href="javascript:;">Get Started</a>
+              <a class="open-popup btn1" href="javascript:;">Get Started</a>
             </h6>
           </div>
         </div>
@@ -80,7 +80,7 @@
           </div>
           <div class="button-custom">
             <h6>
-              <a class="open-popup" href="javascript:;">Get Started</a>
+              <a class="open-popup btn1" href="javascript:;">Get Started</a>
             </h6>
           </div>
         </div>
@@ -95,7 +95,7 @@
           </div>
           <div class="button-custom">
             <h6>
-              <a class="open-popup" href="javascript:;">Get Started</a>
+              <a class="open-popup btn1" href="javascript:;">Get Started</a>
             </h6>
           </div>
         </div>
@@ -112,7 +112,7 @@
           </div>
           <div class="button-custom">
             <h6>
-              <a class="open-popup" href="javascript:;">Get Started</a>
+              <a class="open-popup btn1" href="javascript:;">Get Started</a>
             </h6>
           </div>
         </div>
@@ -176,7 +176,7 @@
           <h2 data-aos="fade-up" data-aos-duration="600">
             <b>Game with Ecommonks</b>
           </h2>
-          <p data-aos="fade-up" data-aos-duration="700" style="color: #fff;">Partner with Ecommonks for simplified and effective e-commerce management across platforms. Our tailored solutions ensure smooth operations and boost sales performance. Trust Ecommonks for a memorable and impactful 
+          <p data-aos="fade-up" data-aos-duration="700" >Partner with Ecommonks for simplified and effective e-commerce management across platforms. Our tailored solutions ensure smooth operations and boost sales performance. Trust Ecommonks for a memorable and impactful 
           E-commerce experience.</p>
           <h4>Here's what we <br>bring to the table:</h4>
         </div>

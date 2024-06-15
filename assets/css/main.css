@@ -1,5 +1,9 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 
 /*
 	Escape Velocity by HTML5 UP
@@ -31,12 +35,12 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-color: #0f0e0e !important;
+	background-color: #ffffff !important;
 }
 p {
-    font-family: Anek Tamil;
+    font-family: 'Poppins';
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
 }
@@ -132,8 +136,9 @@ html {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
+		font-weight: 400;
 		color: #484d55;
+		font-family: 'Bebas Neue' !important;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -155,7 +160,7 @@ html {
 		}
 
 	strong, b {
-		font-weight: 700;
+		font-weight: 400 !important;
 		color: #484d55;
 	}
 
@@ -2151,10 +2156,10 @@ html {
 			max-width: 50%;
 		}
 		#nav > ul li a {
-			font-family: 'Anek Tamil', sans-serif;
+			font-family: 'Poppins', sans-serif;
 			text-transform: capitalize;
 			font-size: 16px;
-			font-weight: 500;
+			font-weight: 400;
 			letter-spacing: 0em;
 			text-align: left;
 			text-decoration: unset !important;
@@ -3329,12 +3334,9 @@ section#intro-section h3 {
 	margin-top:25px
 }
 section#intro-section {
-    background: #0f0e0e;
-    color: #fff;
     padding: 60px 0px 30px 0px;
 }
 section#intro-section h2 {
-    color: #fff;
     font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 700;
@@ -5988,24 +5990,19 @@ section#home-sec1 .headings-home h1 {
     text-align: left;
     padding: 0;
 }
-
- .buttons ul li a:hover {
-    transition: .9s;
-    background: #f90;
-    box-shadow: 0px 0px 11px #ccc;
-}
  .buttons ul li {
     list-style: none;
 }
-.buttons ul li a {
-    background: #ff10;
+.btn1 {
+    background: transparent;
     padding: 12px 35px;
-    text-decoration: unset;
+    text-decoration: none;
     color: #fff;
-    border-radius: 30px;
-    border: 3px solid #ff9e1f;
-    font-family: 'Anek Tamil';
-	animation: pulse-animation 2s infinite;
+    border-radius: 10px;
+    border: 2px solid #ff9e1f;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    animation: pulse-animation 2s infinite;
 }
 .buttons ul {
     display: flex;
@@ -6067,16 +6064,7 @@ section#intro-section ul li {
     list-style: none;
 }
 
-section#intro-section ul li a {
-    background: #ff10;
-    padding: 17px 35px;
-    text-decoration: unset;
-    color: #fff;
-    border-radius: 30px;
-    border: 3px solid #ff9e1f;
-    font-family: 'Anek Tamil';
-    animation: pulse-animation 2s infinite;
-}
+
 section#price-plans-section {
     background: #0f0e0e;
     border-bottom: 1px solid;
@@ -6198,10 +6186,8 @@ section#our-ecom-bus .text-box-business h3 a {
 section#our-ecom-bus .text-box-business h3 {
     font-size: 25px;
     color: #fff;
-    font-family: 'Anek Tamil';
     margin-top: 20px;
     line-height: 30px;
-    font-weight: bold;
     margin-bottom: 0;
 }
 section#our-ecom-bus .text-box-business {
@@ -6652,7 +6638,6 @@ section#home-sec1 .home-heading1 {
     line-height: 60px !important;
 }
 section#our-ecom-bus .heading-text h4 {
-    color: #fff;
     font-family: 'Anek Tamil';
     font-size: 31px;
     line-height: 41px;
