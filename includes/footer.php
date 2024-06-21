@@ -103,18 +103,17 @@
 				<div class="copyright-section">
 					<div class="container">
 						<div class="row">
-							<div class="col-6 col-12-medium align-self-center">
+							<div class="col-12-medium align-self-center">
 								<p style="color: #fff;">@2023 <span style="color: #f9a230;">Ecom Monks.</span> All Right  Reserved.</p>
 							</div>
-							<div class="col-6 col-12-medium">
+							<!-- <div class="col-6 col-12-medium">
 								<div class="social-links">
 									<ul>
 										<li><a target="_blank" href="https://www.facebook.com/profile.php?id=61551060475229"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 										<li><a target="_blank" href="https://www.instagram.com/ecomm_monks/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										<!-- <li><a href="#"><img src="../images/social/social3.png"/></a></li> -->
 									</ul>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 

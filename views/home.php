@@ -15,10 +15,10 @@
           <div class="buttons">
             <ul>
               <li>
-                <a class="btn1" href="aboutus/">Read More</a>
+                <a class="btn1" href="aboutus/"> <span>Read More</span></a>
               </li>
               <li>
-                <a class="open-popup btn1" href="javascript:;">Get a quote</a>
+                <a class="open-popup btn1" href="javascript:;"><span>Get a quote</span></a>
               </li>
             </ul>
           </div> 
@@ -27,7 +27,7 @@
           <img style="    animation: mover 1s infinite alternate; margin: 0px auto;     display: table;" width="80%" src="../images/launch.png" />
       <!-- <scrip t src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
-<dotlottie-player src="https://lottie.host/9a11dfbb-b48b-46fb-a246-e72d1d22b85d/Z2ZqlFQ306.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player> -->
+    <dotlottie-player src="https://lottie.host/9a11dfbb-b48b-46fb-a246-e72d1d22b85d/Z2ZqlFQ306.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player> -->
           <div class="side-image">
        
           </div>
@@ -36,21 +36,16 @@
     </div>
   </section>
   
-  </section>
   <section id="intro-section">
     <div class="container">
-      <div class="row">
+      <div class="row text-center">
         <div class="row-text ">
           <h3 data-aos="fade-up" data-aos-duration="500" style="padding-top: 20px;">Why Choose Ecommonks?</h3>
           <h2 data-aos="fade-up" data-aos-duration="600">
           <b>Stop Thinking,</b><br> Start Doing
           </h2>
           <p data-aos="fade-up" data-aos-duration="700" style="padding-bottom: 50px;">Partnering with Ecommonks means choosing innovation, expertise, and results. Our commitment<br> to your success is unwavering. Here’s why you should choose us: </p>
-          <ul>
-            <li data-aos="fade-right" data-aos-duration="500">
-              <a class="open-popup btn1" href="javascript:;" href="#">Get a Quote</a>
-            </li>
-          </ul>
+        
         </div>
       </div>
       <div class="row">
@@ -58,69 +53,46 @@
           <div class="why-choosetext" data-aos="fade-right" data-aos-duration="900">
             <div class="why-choose-image">
               <img class="img1" src="../images/low.png">
-              <img class="img2" src="../images/lowcolor.png">
             </div>
             <h3>Proven Track Record</h3>
             <p>We excel in eCommerce automation, driving exceptional results for businesses of all sizes. Our solutions help kickstart and scale eCommerce brands effectively.</p>
-          </div>
-          <div class="button-custom">
-            <h6>
-              <a class="open-popup btn1" href="javascript:;">Get Started</a>
-            </h6>
+            <a class="open-popup btn1" href="javascript:;"><span>Get Started<span></a>
           </div>
         </div>
         <div class="col-3 col-12-medium">
           <div class="why-choosetext" data-aos="fade-up" data-aos-duration="900">
             <div class="why-choose-image">
               <img class="img1" src="../images/creative.png">
-              <img class="img2" src="../images/creativecolor.png">
             </div>
             <h3>Customized Strategies</h3>
             <p>We tailor our digital strategies to fit each client's unique goals and industry demands, ensuring personalized solutions rather than a one-size-fits-all approach.</p>
-          </div>
-          <div class="button-custom">
-            <h6>
-              <a class="open-popup btn1" href="javascript:;">Get Started</a>
-            </h6>
+            <a class="open-popup btn1" href="javascript:;"><span>Get Started</span></a>
           </div>
         </div>
         <div class="col-3 col-12-medium">
           <div class="why-choosetext" data-aos="fade-up" data-aos-duration="900">
             <div class="why-choose-image">
               <img class="img1" src="../images/educate.png">
-              <img class="img2" src="../images/educatecolor.png">
             </div>
             <h3>Data-Driven Insights</h3>
             <p>We base our decisions on data, continuously analyzing performance metrics to optimize campaigns and maximize ROI.</p>
-          </div>
-          <div class="button-custom">
-            <h6>
-              <a class="open-popup btn1" href="javascript:;">Get Started</a>
-            </h6>
+            <a class="open-popup btn1" href="javascript:;"><span>Get Started</span></a>
           </div>
         </div>
         <div class="col-3 col-12-medium">
           <div class="why-choosetext" data-aos="fade-left" data-aos-duration="900">
             <div class="why-choose-image">
               <img class="img1" src="../images/senior.png">
-              <img class="img2" src="../images/seniorcolor.png">
             </div>
-
-
-            <h3>Transparency & Communication</h3>
+            <h3> Communication</h3>
             <p>With our support team, you'll always stay informed through clear communication and regular updates on your project's progress.</p>
-          </div>
-          <div class="button-custom">
-            <h6>
-              <a class="open-popup btn1" href="javascript:;">Get Started</a>
-            </h6>
+            <a class="open-popup btn1" href="javascript:;"><span>Get Started</span></a>
           </div>
         </div>
       </div>
       <div class="row inner-section">
   
         <h2 data-aos="fade-up" data-aos-duration="500"> Elevate Your Business with<br> Done-For-You <b>Ecom Automation</b>
-</b>
         </h2>
         <p data-aos="fade-up" data-aos-duration="500">Experience effortless growth with our comprehensive Ecom automation services. We elevate your digital
           <br> presence and drive unparalleled growth for your business.</p>
@@ -298,7 +270,7 @@
   </section>
   <!-- Complete Solutions -->
   <section id="complete-solutions">
-	<div class="container">
+	 <div class="container">
 		<div class="row">
 		<div class="heading-text">
  
@@ -327,8 +299,7 @@
 						<li><span>07</span>Inventory<br> Management</li>
 						<li><span>08</span>Order<br>
             Management</li>
-						<li><span>09</span>Account<br>
-Management</li>
+						<li><span>09</span>Account<br>Management</li>
 					</ul>
 				</div>
 			</div>
@@ -338,23 +309,22 @@ Management</li>
 			</div>
 		</div>
 		<!-- Container end -->
-	</div>
+	 </div>
   </section>
 
   <!-- PROVEN ECOMMERCES -->
   <section id="proven-ecommerce">
-	<div class="container">
+	 <div class="container">
 		<div class="row align-items-center">
 			<div class="col-4 col-12-medium">
 			<div class="heading-text">
           <h3>Proven </h3>
           <h2>
 		  
-<b>E-commerce</b>
-Success
+          <b>E-commerce</b>Success
           </h2>
           <p style="color: #fff;">We take pride in our work and the results we deliver. Through our high-quality e-commerce expertise, we have helped numerous businesses and social platforms achieve maximum profit margins and expand their customer base. Our proven track record speaks for itself, demonstrating our commitment to excellence and customer satisfaction.</p>
-	</div>
+	  </div>
 			</div>
 
 			<div class="col-8 col-12-medium">
@@ -386,7 +356,7 @@ Success
       </div>
 			</div>
 		</div>
-	</div>
+	 </div>
 	
 </section>
 
@@ -427,7 +397,7 @@ Success
                             <input type="hidden" name="price" value="null">
                             <input type="hidden" name="news" value="1">
                             <input type="text" class="jun" name="gender">
-</form>
+   </form>
           </div>
         </div>
       </div>

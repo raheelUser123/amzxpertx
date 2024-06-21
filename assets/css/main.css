@@ -78,9 +78,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-}
-body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 mark {
 	background-color: transparent;
@@ -137,7 +135,7 @@ html {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #484d55;
+		color: #222222;
 		font-family: 'Bebas Neue' !important;
 	}
 
@@ -161,7 +159,7 @@ html {
 
 	strong, b {
 		font-weight: 400 !important;
-		color: #484d55;
+		color: #222222;
 	}
 
 	blockquote {
@@ -3324,31 +3322,16 @@ video#bgvid {
 }
 
 /* INTRO SECTION */
-section#intro-section h3 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 103.8%;
-    color: #FFFFFF;
-	margin-top:25px
-}
+
 section#intro-section {
     padding: 60px 0px 30px 0px;
 }
-section#intro-section h2 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-}
-section#intro-section h2 b {
-    background: #f9a230;
+
+h2 b {
+    background: -webkit-linear-gradient(#f9a230, #915c16);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
- 
 }
 
 section#intro-section .col-3:hover .why-choosetext {
@@ -3363,17 +3346,14 @@ section#intro-section .why-choosetext {
     text-align: center;
     background: url(../../images/hme.jpg);
     box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.09);
-    border-radius: 25px;
     border: 2px solid #f9a230;
     margin: 0 4px;
-    height: 85%;
+	height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
-.button-custom {
-    opacity: 0;
-}
+
 section#intro-section .col-3:hover {
     transition: .9s;
     transform: translateY(10px);
@@ -3382,83 +3362,36 @@ section#intro-section .col-4:hover {
     transition: .9s;
     transform: translateY(10px);
 }
-section#intro-section .col-3:hover .button-custom,
-section#intro-section .col-4:hover .button-custom  {
-    opacity: 1;
-    transition: .9s;
-}
-section#intro-section .col-3:hover .why-choosetext,
-section#intro-section .col-4:hover .why-choosetext {
-    border-radius: 25px 25px 0 0;
-}
 section#intro-section .button-custom:hover a {
     color: #fff;
 }
-.button-custom a {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-    color: #fff;
-}
+
 section#intro-section .why-choosetext .why-choose-image {
     margin: 10px 0 30px 0;
 }
 
 section#intro-section .why-choosetext h3 {
-    font-family: Anek Tamil;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
     text-align: center;
-    min-height: 40px;
-    margin: 10px 0;color: #E0E0E0;}
+    margin: 10px 0;
+	color: #E0E0E0;}
 
 	section#intro-section .why-choosetext p {
-		font-family: Anek Tamil;
 		font-size: 15px;
 		font-weight: 400;
 		line-height: 25px;
 		letter-spacing: 0em;
 		text-align: center;
 		color: #fffbfb;
+		min-height: 160px;
 	}
-section#intro-section .why-choosetext img.img2 {
-    position: absolute;
-    margin-left: -84px;
-    opacity: 0;
-}
-section#intro-section .col-3:hover .img2 {
-    opacity: 1;
-    transition: .9s;
-}
-section#intro-section .col-3:hover .img1 {
-    opacity: 0;
-}
+
+
+
 section#intro-section .col-3:hover h3, section#intro-section .col-3:hover p {
     color: #fff;
     transition: .9s;
 }
-.button-custom {
-    text-align: center;
-    background: #fff;
-    padding: 9px 0px;
-    background: #f9a230;
-    border-radius: 0px 0px 21px 21px;
-    margin: 0 4px;
-}
 
-.button-custom a {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
-    color: #fff;
-	padding: 10px 50px;
-}
 section#intro-section .inner-section {
     padding: 60px 0 30px 0;
 }
@@ -3537,7 +3470,6 @@ section#grow-brand {
 section#grow-brand h1 {
     font-family: Anek Tamil;
     font-size: 65px;
-    font-weight: 700;
     line-height: 65px;
     letter-spacing: 0em;
     text-align: center;
@@ -3558,7 +3490,6 @@ section#grow-brand h1 b {
 .brand-button h6 a {
     padding: 13px 29px;
     color: #fff;
-    font-family: 'Anek Tamil';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -3598,33 +3529,8 @@ section#grow-brand h1 b {
     color: #fff;
     padding: 60px 0px;
 } */
-.heading-text h3 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 103.8%;
-    color: #FFFFFF;
-}
-
-.heading-text h2 {
-    color: #fff;
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 103.8%;
-}
 
 
-.heading-text h2 b {
-    background: #f9a230;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-	font-size: 40px;
-
-}
 section#what-can-we .accordion-item img:hover {
     transform: scale(0.9);
 }
@@ -3658,8 +3564,7 @@ section#what-can-we ul#myTab .nav-link {
     background: #0c0b0b;
     border: 1px solid #4B4B4B;
     border-radius: 15px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 102.8%;
@@ -3716,8 +3621,7 @@ section#what-can-we .fade:not(.show) {
 section#what-can-we .inner-customcanwe .button-text a {
     float: right;
     text-decoration: unset;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 208.3%;
@@ -3749,9 +3653,7 @@ section#recent-past {
 }
 
 section#recent-past h1 {
-    font-family: Anek Tamil;
     font-size: 65px;
-    font-weight: 700;
     line-height: 65px;
     letter-spacing: 0em;
     color: #fff;
@@ -3760,8 +3662,7 @@ section#what-can-we .information h2 img:hover {
     transform: translateY(-20px);
 }
 section#recent-past .heading-text h3 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 300;
     font-size: 32px;
     line-height: 103.8%;
@@ -3795,8 +3696,7 @@ section#recent-past .nav-tabs .nav-link.active {
 section#recent-past .nav-tabs .nav-link {
     border: 0 !important;
     color: #4D4D4D;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-size: 16px;
     line-height: 54px;
     letter-spacing: 0;
@@ -3897,8 +3797,7 @@ section#recent-past .gallery-item {
 
 /* FAQS CSS */
 section#faqs .accordion-body {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -3927,8 +3826,7 @@ section#faqs button.accordion-button.collapsed {
     background: #141313;
     border: 2px solid #141313;
     border-radius: 25px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
@@ -3938,8 +3836,7 @@ section#faqs button.accordion-button.collapsed {
 section#faqs .accordion-button:not(.collapsed) {
     background: #ff10 !important;
     box-shadow: unset;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
@@ -3965,8 +3862,7 @@ section#testimonials-sections #page .slick-track .testimonial-text {
 }
 
 section#testimonials-sections .testimonial-text h3 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 54px;
@@ -4043,8 +3939,7 @@ textarea:focus-visible {
 }
 section#contact-us form#contact ::placeholder {
     font-style: inherit !important;
-    font-family: 'Anek Tamil';
-    font-weight: 400;
+     font-weight: 400;
     font-size: 20px;
     color: #656565;
     line-height: 30px;
@@ -4057,8 +3952,7 @@ section#contact-us form#contact button#contact-submit {
     background: linear-gradient(271.05deg, #f9a230 2.65%, #f9a230 97.16%);
     border: 2px solid #2F2F2F;
     border-radius: 25px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     color: #FFFFFF;
@@ -4110,8 +4004,7 @@ section#price-plans-section .nav-tabs .nav-link {
     padding-bottom: 0 !important;
     text-align: center;
     text-transform: capitalize;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 54px;
@@ -4131,8 +4024,7 @@ section#price-plans-section .price-inner-plan {
 section#price-plans-section .price-heading-text {border: 1px solid #434343;border-radius: 15px;text-align: center;padding: 26px 0px;}
 
 section#price-plans-section .price-heading-text h2 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -4165,8 +4057,7 @@ section#price-plans-section .price-list {
     background-position: left;
 }
 section#price-plans-section .price-list ul li {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -4220,8 +4111,7 @@ footer#main-footer-sections {
 }
 
 footer#main-footer-sections .footer-about-us p {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 300;
     font-size: 13px;
     line-height: 174.3%;
@@ -4229,8 +4119,7 @@ footer#main-footer-sections .footer-about-us p {
     margin-top: 10px;
 }
 footer#main-footer-sections h4 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 23px;
@@ -4250,8 +4139,7 @@ footer#main-footer-sections .copyright-section p {
     margin: 0;
 }
 footer#main-footer-sections ul.nav-menu-links li a {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -4263,8 +4151,7 @@ footer#main-footer-sections ul.nav-menu-links li {
     line-height: 35px;
 }
 footer#main-footer-sections .footer-nav-3 ul li {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 30px;
@@ -4390,8 +4277,7 @@ section#about-us-main-section .about-banner-buttons ul {
     padding: 12px 54px;
 }
 body.about-us section#header p {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 148.3%;
@@ -4412,8 +4298,7 @@ section#milestone-section .text-mile-area .heading-text h1 b {
     line-height: 85px;
 }
 section#milestone-section .text-mile-area .heading-text h1 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 55px;
     line-height: 64px;
@@ -4429,8 +4314,7 @@ section#milestone-section .mile-function-code h1 span {
 }
 
 section#milestone-section .mile-function-code h1 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 600;
     font-size: 60px;
     line-height: 105.8%;
@@ -4443,8 +4327,7 @@ section#milestone-section .mile-function-code h3 {
     line-height: 105.8%;
     text-align: center;
     color: #E0E0E0;
-    font-family: 'Anek Tamil';
-}
+ }
 section#milestone-section .mile-function-code {
     text-align: center;
 }
@@ -4464,8 +4347,7 @@ section#milestone-section .mision-vision .mis-vis p {
 
 section#milestone-section .mision-vision .mis-vis h2 {
     color: #fff;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
@@ -4521,9 +4403,7 @@ section#what-canwe-about .gallery-item {
     cursor: pointer;
 }
 section#what-canwe-about .gallery-about-section h6 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
-    font-weight: 700;
+     font-style: normal;
     font-size: 167px;
     line-height: 60px;
     text-align: center;
@@ -4555,8 +4435,7 @@ section#what-canwe-about .gallery-about-section h6 {
     padding: 130px 70px 70px 70px;
 }
 section#call-toaction-section h2 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 34px;
     line-height: 32px;
@@ -4583,8 +4462,7 @@ section#call-toaction-section h2 b {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 105.8%;
@@ -4640,8 +4518,7 @@ section#services-solutions .tabsinner-sec-sol img.logodetails {
 }
 section#services-solutions .nav-tabs .nav-link {
     color: #fff;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0;
@@ -4710,8 +4587,7 @@ section#services-solutions .tabsinner-sec-sol h6 a {
     border: 1px solid #f9a230;
     border-radius: 10px;
     padding: 11px 30px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 105.8%;
@@ -4929,10 +4805,7 @@ section#price-secamz .mysec h6 {
 	.brand-portfolio .card {
 		padding: 0 0 !important;
 	}
-	section#intro-section ul {
-		position: unset !important;
-		margin: 40px 0px !important;
-	}
+	
 
 	section#header {
 		height: auto !important;
@@ -5067,8 +4940,7 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
     border-radius: 15px;
     color: #fff;
     text-transform: capitalize;
-    font-family: 'Anek Tamil';
-    letter-spacing: 0;
+     letter-spacing: 0;
     font-size: 19px;
     padding: 0 0 !important;
     line-height: 0;
@@ -5078,8 +4950,7 @@ section#header .service-logosection .first-inner-section-text .about-banner-butt
 section#logo-about-us .logoabout-text h6 {
     font-size: 50px;
     color: #fff;
-    font-family: 'Anek Tamil';
-    
+     
 }
 
 section#logo-about-us .logoabout-text h1 {
@@ -5093,17 +4964,6 @@ section#logo-about-us .logoabout-text h1 {
 }
 section#logo-about-us .logoabout-text p {
     color: #fff;
-}
-section#intro-section .containerr .why-choosetext {
-    border-radius: 6px;
-}
-section#intro-section .col-3:hover .why-choosetext {
-    border-radius: 6px 6px 0 0;
-}
-section#intro-section .containerr .why-choosetext img.img2 {
-    left: 0 !important;
-    right: 0 !important;
-    margin: 0 auto !important;
 }
 section#logo-call-to-action .container img {
     position: absolute;
@@ -5161,15 +5021,13 @@ section#logoportfolio .projct-box {
 }
 section#logoportfolio .projct-box h1 span {
     color: #fff;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
 }
 section#logoportfolio .projct-box h1 {
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
@@ -5223,8 +5081,7 @@ section#logoportfolio ul#myTab .nav-link {
     background: #212121;
     border: 1px solid #4B4B4B;
     border-radius: 15px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
@@ -5252,9 +5109,7 @@ section#logoportfolio ul#myTab li {
     padding: 25px 0;
 }
 .logo-steps h3 {
-    font-family: Anek Tamil;
     font-size: 125px;
-    font-weight: 700;
     line-height: 135px;
     letter-spacing: 0em;
     text-align: center;
@@ -5301,8 +5156,7 @@ section#logoprocess-inner button.accordion-button.collapsed {
     background: #252525;
     border: 2px solid #2F2F2F;
     border-radius: 25px;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
@@ -5312,8 +5166,7 @@ section#logoprocess-inner button.accordion-button.collapsed {
 section#logoprocess-inner .accordion-button:not(.collapsed) {
     background: #ff10 !important;
     box-shadow: unset;
-    font-family: 'Anek Tamil';
-    font-style: normal;
+     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
@@ -5385,8 +5238,7 @@ section#logo-contact-form button#contact-submit {
     background: #000;
     color: #fff;
     border-radius: 20px;
-    font-family: 'Anek Tamil';
-    letter-spacing: 1px;
+     letter-spacing: 1px;
     font-size: 20px;
     height: 59px;
     font-weight: 400;
@@ -5454,8 +5306,7 @@ section#intro-section .row {
     margin: 0;
     -webkit-text-stroke: 1px #f9a230;
     -webkit-text-fill-color: #f9a230;
-    font-family: 'Anek Tamil';
-}
+ }
 section#logo-about-us .social-media h1 {
     font-size: 80px;
     -webkit-text-stroke: 1px #ccc;
@@ -5496,8 +5347,7 @@ section#mobileapp-details .innermobileapp h6 a {
     right: 0;
     top: 38px;
     background: #f9a230;
-    font-family: 'Anek Tamil';
-    border-radius: 20px 0px 0px 20px;
+     border-radius: 20px 0px 0px 20px;
     opacity: 0;
 }
 section#mobileapp-details .innermobileapp h5 a i {
@@ -5506,8 +5356,7 @@ section#mobileapp-details .innermobileapp h5 a i {
     top: 2px;
 }
 section#mobileapp-details .innermobileapp h5 a {
-    font-family: 'Anek Tamil';
-    color: #fff;
+     color: #fff;
     font-size: 15px;
     line-height: 25px;
 }
@@ -5519,8 +5368,7 @@ section#mobileapp-details .innermobileapp p {
 }
 section#mobileapp-details .innermobileapp h3 {
     color: #E0E0E0;
-    font-family: 'Anek Tamil';
-    padding: 40px 0 10px 0;
+     padding: 40px 0 10px 0;
 }
 section#mobileapp-details .innermobileapp {
     border: 1px solid #626262;
@@ -5809,10 +5657,7 @@ color: #F9A230;
    section#what-can-we .accordion-item{
 	   padding: 46px 15px;
    }
-   section#intro-section h2 {
-	font-size: 33px;
-	line-height: 40px;
-}
+   
 
    section#header h1{
 	font-size: 47px!important;
@@ -5835,9 +5680,7 @@ color: #F9A230;
 	.section#intro-section h3 {
 		margin-top: 1px!important;
 	}
-	section#intro-section h2 {
-		font-size: 33px;
-	}
+	
 	.button-custom{
 		display: none!important;
 	}
@@ -5946,7 +5789,6 @@ color: #F9A230;
     width: auto;
     height: auto;
     text-align: left!important;
-    font-family: 'Anek Tamil', sans-serif;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
@@ -5993,6 +5835,10 @@ section#home-sec1 .headings-home h1 {
  .buttons ul li {
     list-style: none;
 }
+.btn1 span {
+    z-index: 2;
+    position: relative;
+}
 .btn1 {
     background: transparent;
     padding: 12px 35px;
@@ -6002,8 +5848,45 @@ section#home-sec1 .headings-home h1 {
     border: 2px solid #ff9e1f;
     text-transform: uppercase;
     font-family: 'Poppins';
-    animation: pulse-animation 2s infinite;
+    animation: pulse-animation 5s infinite linear;
+	position: relative;
+    overflow: hidden;
+	transition: 0.9s;
+}	
+a.btn1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+	border-radius: 5px;
+    width: 0%;
+    transition: 0.9s;
+    background: #ff9e1f;
 }
+a.btn1::after {
+    content: '';
+    position: absolute;
+	border-radius: 5px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    transition: 0.9s;
+    background: #ff9e1f;
+}
+a.btn1:hover:before,a.btn1:hover:after{
+	width: 100%;
+}
+a.btn1:hover{
+	transform: translateY(-6px) !important;
+	color: #fff !important;
+}
+h2 {
+    font-size: 65px!important;
+    line-height: 65px!important;
+}
+
 .buttons ul {
     display: flex;
     margin: 40px 0;
@@ -6021,7 +5904,7 @@ section#home-sec1 .headings-home h1 {
 .email-tel img {
     width: 49%;
     box-shadow: 0px 0px 1px 1px #0000001a;
-    animation: pulse-animation 2s infinite;
+    animation: pulse-animation  5s infinite Linear;
     border-radius: 29px;
 }
 .email-tel ul li {
@@ -6031,6 +5914,9 @@ section#home-sec1 .headings-home h1 {
 .email-tel ul {
     margin: 0;
     padding: 0;
+}
+input.jun {
+    display: none;
 }
 .email-tel {
     position: fixed;
@@ -6043,26 +5929,17 @@ section#home-sec1 .headings-home h1 {
 	0% {
 		box-shadow: 0 0 0 0px rgb(255 158 31 / 12%);
 	}
-	100% {
+	50% {
 		box-shadow: 0 0 0 8px rgb(255 158 31 / 22%);
+	}
+	100% {
+		box-shadow: 0 0 0 0px rgb(255 158 31 / 12%);
 	}
   }
   @keyframes mover {
 	0% { transform: translateY(0); }
 	100% { transform: translateY(-10px); }
   }
-
-section#intro-section ul {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 140px;
-    right: 0;
-}
-
-section#intro-section ul li {
-    list-style: none;
-}
 
 
 section#price-plans-section {
@@ -6071,8 +5948,7 @@ section#price-plans-section {
 }
 section#price-plans-section .price-heading-text h3 {
     color: #ff9b00;
-    font-family: 'Anek Tamil';
-	margin: 0px;
+ 	margin: 0px;
 }
 section#price-plans-section .price-inner-plan:hover h3 {
     color: #fff;
@@ -6110,12 +5986,10 @@ section#price-plans-section .buttons ul {
 }
 #new-custom-form #main-row-form h2 {
     color: #fff;
-    font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 10px;
-    font-family: 'Anek Tamil';
-}
+ }
 #new-custom-form .form {
     margin-left: 80px;
 }
@@ -6405,8 +6279,7 @@ section#header {
 }
 .mainfba .fbatext h4 {
     color: #000;
-    font-family: 'Anek Tamil';
-    font-weight: bold;
+     font-weight: bold;
 }
 
 /* MID */
@@ -6435,8 +6308,7 @@ section#header {
 }
 .mainfba1 .fbatext1 h4 {
     color: #000;
-    font-family: 'Anek Tamil';
-    font-weight: bold;
+     font-weight: bold;
     background: #ff9600;
     text-transform: uppercase;
 }
@@ -6538,8 +6410,7 @@ section#price-secamz .mysec .priclist h4 {
     color: #fff;
     font-size: 30px;
     line-height: 40px;
-    font-family: 'Anek Tamil';
-}
+ }
 section#price-secamz .mysec h6 {
     color: #fff;
     text-align: right;
@@ -6581,8 +6452,7 @@ section#price-secamz .mysec button.getstart:hover {
 }
 section#price-secamz .mysec button.getstart {
     background: #fff;
-    font-family: 'Anek Tamil';
-    letter-spacing: 0;
+     letter-spacing: 0;
     font-size: 15px;
     padding: 7px 29px !important;
     height: auto;
@@ -6594,8 +6464,7 @@ section#contentsection-right h2 {
     text-transform: uppercase;
     font-size: 44px;
     line-height: 54px;
-    font-family: 'Anek Tamil';
-}
+ }
 section#milestone-section .mision-vision .mis-vis p {
     min-height: 280px;
 }
@@ -6638,8 +6507,7 @@ section#home-sec1 .home-heading1 {
     line-height: 60px !important;
 }
 section#our-ecom-bus .heading-text h4 {
-    font-family: 'Anek Tamil';
-    font-size: 31px;
+     font-size: 31px;
     line-height: 41px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -6652,13 +6520,26 @@ section#our-ecom-bus .heading-text h4 {
 section#intro-section,section#proven-ecommerce {
 	position: relative;
 }
-section#intro-section::before,section#proven-ecommerce::before {
-    content: url(../../images/shwd.png);
+section#intro-section::before, section#proven-ecommerce::before {
+    background-image: url(../../images/shwd.png);
+    content: '';
     position: absolute;
-    top: -50px;
+    top: -70px;
+    right: 0;
+    width: 400px;
+    height: 600px;
+    background-size: 100% 100%;
+}
+section#intro-section::after, section#proven-ecommerce::after {
+    background-image: url(../../images/shwd.png);
+    content: '';
+    position: absolute;
+    bottom: 0px;
     left: 0;
-	animation: pulse 5s infinite;
-    transform: rotate(180deg);
+    width: 400px;
+    height: 600px;
+    background-size: 100% 100%;
+	transform: rotate(180deg);
 }
 
 .thnnkkk h1 {
@@ -6709,14 +6590,7 @@ section#fbba .heading-text {
 footer#main-footer-sections {
 	position: relative;
 }
-footer#main-footer-sections::before {
-    content: url(../../images/shwd.png);
-    position: absolute;
-    top: -30px;
-    left: 0;
-	animation: pulse 5s infinite;
-    transform: rotate(180deg);
-}
+
 .trhstpiot {
     position: absolute;
     bottom: 70px;
